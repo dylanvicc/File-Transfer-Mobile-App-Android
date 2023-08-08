@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FTP</string>
+    <string name="activity_main_select_files_button_text">Select Files</string>
+    <string name="activity_main_transfer_files_button_text">Transfer Files</string>
+    <string name="fragment_transfer_settings_password_text">Password</string>
+    <string name="fragment_transfer_settings_directory_text">Directory</string>
+    <string name="fragment_transfer_settings_address_text">Address</string>
+    <string name="fragment_transfer_settings_username_text">Username</string>
+</resources>

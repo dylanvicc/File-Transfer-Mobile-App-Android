@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_style_primary">
+
+    <TextView
+        android:id="@+id/fragment_transfer_settings_address_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:text="@string/fragment_transfer_settings_address_text"
+        android:textColor="@color/black_ice_heading_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/fragment_transfer_settings_edit_text_address"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/default_edit_text_height"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/very_small_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:background="@drawable/edit_text_style_primary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_transfer_settings_address_label"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields" />
+
+    <TextView
+        android:id="@+id/fragment_transfer_settings_username_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:text="@string/fragment_transfer_settings_username_text"
+        android:textColor="@color/black_ice_heading_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_transfer_settings_edit_text_address" />
+
+    <EditText
+        android:id="@+id/fragment_transfer_settings_edit_text_username"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/default_edit_text_height"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/very_small_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:background="@drawable/edit_text_style_primary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_transfer_settings_username_label"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields" />
+
+    <TextView
+        android:id="@+id/fragment_transfer_settings_password_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:text="@string/fragment_transfer_settings_password_text"
+        android:textColor="@color/black_ice_heading_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_transfer_settings_edit_text_username" />
+
+    <EditText
+        android:id="@+id/fragment_transfer_settings_edit_text_password"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/default_edit_text_height"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/very_small_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:background="@drawable/edit_text_style_primary"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_transfer_settings_password_label"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields" />
+
+    <TextView
+        android:id="@+id/fragment_transfer_settings_directory_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:text="@string/fragment_transfer_settings_directory_text"
+        android:textColor="@color/black_ice_heading_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_transfer_settings_edit_text_password" />
+
+    <EditText
+        android:id="@+id/fragment_transfer_settings_edit_text_directory"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/default_edit_text_height"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/very_small_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:background="@drawable/edit_text_style_primary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_transfer_settings_directory_label"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields" />
+</androidx.constraintlayout.widget.ConstraintLayout>
